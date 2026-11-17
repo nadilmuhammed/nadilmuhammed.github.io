@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%" fill="none">
+  <defs>
+    <filter id="softGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Circular Outer Wreath Ring -->
+  <circle cx="300" cy="300" r="235" stroke="#BA8C45" stroke-width="5" fill="none"/>
+  
+  <!-- Left Botanical Branch with delicate Leaves -->
+  <path d="M 160 410 C 120 340 115 240 155 160 C 172 125 200 95 230 70" stroke="#2F5938" stroke-width="5.5" stroke-linecap="round" fill="none"/>
+  <!-- Leaf 1 bottom -->
+  <path d="M 148 275 C 122 262 110 220 140 210 C 162 210 162 250 148 275 Z" fill="#2F5938"/>
+  <!-- Leaf 2 middle -->
+  <path d="M 162 195 C 145 160 160 125 190 138 C 200 158 185 190 162 195 Z" fill="#2F5938"/>
+  <!-- Leaf 3 top -->
+  <path d="M 190 135 C 180 100 210 70 235 90 C 238 116 215 136 190 135 Z" fill="#2F5938"/>
+
+  <!-- Top Right Golden Wheat Sheaf -->
+  <path d="M 380 80 C 420 110 460 160 480 220 C 492 260 495 300 485 345" stroke="#BA8C45" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- Wheat Kernels -->
+  <g fill="#BA8C45">
+    <ellipse cx="395" cy="110" rx="16" ry="8" transform="rotate(-30 395 110)"/>
+    <ellipse cx="420" cy="95" rx="16" ry="8" transform="rotate(30 420 95)"/>
+    <ellipse cx="418" cy="138" rx="16" ry="8" transform="rotate(-35 418 138)"/>
+    <ellipse cx="445" cy="122" rx="16" ry="8" transform="rotate(25 445 122)"/>
+    <ellipse cx="440" cy="170" rx="16" ry="8" transform="rotate(-40 440 170)"/>
+    <ellipse cx="468" cy="154" rx="16" ry="8" transform="rotate(20 468 154)"/>
+    <ellipse cx="458" cy="205" rx="16" ry="8" transform="rotate(-45 458 205)"/>
+    <ellipse cx="484" cy="190" rx="16" ry="8" transform="rotate(15 484 190)"/>
+  </g>
+
+  <!-- Bottom Right Citrus Orange / Golden Fruit -->
+  <g id="citrus-fruit">
+    <circle cx="435" cy="435" r="32" fill="#BA8C45"/>
+    <!-- Small Leaf 1 -->
+    <path d="M 430 405 C 423 392 434 385 444 390 C 448 398 440 406 430 405 Z" fill="#2F5938"/>
+    <!-- Small Leaf 2 -->
+    <path d="M 436 405 C 448 395 458 400 456 408 C 448 412 438 409 436 405 Z" fill="#2F5938"/>
+    <!-- Golden Fruit Highlight -->
+    <ellipse cx="425" cy="426" rx="5" ry="11" transform="rotate(-25 425 426)" fill="#E8D1A3" opacity="0.6"/>
+  </g>
+
+  <!-- Center Typography & Monogram -->
+  <g fill="#2F5938">
+    <!-- Big Bold 'C' -->
+    <path d="M 275 220 C 265 208 248 198 224 198 C 182 198 152 232 152 282 C 152 332 182 366 224 366 C 248 366 264 356 274 344 L 274 382 C 260 393 241 398 218 398 C 158 398 116 352 116 282 C 116 212 158 166 218 166 C 240 166 261 171 275 182 Z"/>
+    
+    <!-- Big Bold 'P' -->
+    <path d="M 296 170 L 350 170 C 388 170 415 194 415 233 C 415 271 388 295 350 295 L 328 295 L 328 395 L 296 395 Z M 328 200 L 328 265 L 348 265 C 370 265 384 253 384 233 C 384 212 370 200 348 200 Z"/>
+    
+    <!-- Organic Leaf sprouting at junction of P stem -->
+    <path d="M 328 268 C 306 256 284 278 303 299 C 323 306 336 285 328 268 Z" fill="#2F5938"/>
+    <path d="M 338 236 C 365 214 377 242 360 260 C 347 265 336 254 338 236 Z" fill="#2F5938"/>
+  </g>
+
+  <!-- Text "STORE" -->
+  <text x="300" y="448" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="52" font-weight="700" letter-spacing="16" fill="#2F5938" text-anchor="middle">STORE</text>
+
+  <!-- Text "GROCERY" -->
+  <text x="300" y="495" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="600" letter-spacing="18" fill="#BA8C45" text-anchor="middle">GROCERY</text>
+</svg>
