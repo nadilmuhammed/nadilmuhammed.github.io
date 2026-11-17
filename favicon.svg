@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Circular Golden Wreath Background Ring -->
+  <circle cx="256" cy="256" r="236" stroke="#BA8C45" stroke-width="8" stroke-dasharray="1400" stroke-dashoffset="0" fill="#FCFAF7"/>
+  
+  <!-- Left Botanical Stem & Leaves -->
+  <path d="M 120 370 C 95 310 90 220 120 155 C 135 125 160 100 185 80" stroke="#2F5938" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <!-- Leaf 1 -->
+  <path d="M 112 250 C 90 240 80 205 105 195 C 125 195 125 230 112 250 Z" fill="#2F5938"/>
+  <!-- Leaf 2 -->
+  <path d="M 125 180 C 110 150 125 120 150 130 C 160 148 145 175 125 180 Z" fill="#2F5938"/>
+  <!-- Leaf 3 -->
+  <path d="M 148 128 C 140 100 165 75 188 92 C 190 115 170 130 148 128 Z" fill="#2F5938"/>
+
+  <!-- Top Right Wheat Ears -->
+  <path d="M 330 90 C 365 115 395 155 415 205 C 425 235 428 270 420 310" stroke="#BA8C45" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Wheat Grain Grains -->
+  <g fill="#BA8C45">
+    <ellipse cx="340" cy="115" rx="14" ry="7" transform="rotate(-30 340 115)"/>
+    <ellipse cx="362" cy="102" rx="14" ry="7" transform="rotate(30 362 102)"/>
+    <ellipse cx="360" cy="138" rx="14" ry="7" transform="rotate(-35 360 138)"/>
+    <ellipse cx="384" cy="125" rx="14" ry="7" transform="rotate(25 384 125)"/>
+    <ellipse cx="380" cy="165" rx="14" ry="7" transform="rotate(-40 380 165)"/>
+    <ellipse cx="403" cy="152" rx="14" ry="7" transform="rotate(20 403 152)"/>
+    <ellipse cx="396" cy="196" rx="14" ry="7" transform="rotate(-45 396 196)"/>
+    <ellipse cx="417" cy="184" rx="14" ry="7" transform="rotate(15 417 184)"/>
+  </g>
+
+  <!-- Bottom Right Citrus Fruit -->
+  <circle cx="375" cy="380" r="28" fill="#BA8C45"/>
+  <path d="M 370 354 C 365 344 374 338 382 342 C 385 348 378 355 370 354 Z" fill="#2F5938"/>
+  <path d="M 375 354 C 385 346 394 350 392 357 C 386 360 378 357 375 354 Z" fill="#2F5938"/>
+  <ellipse cx="366" cy="372" rx="4" ry="9" transform="rotate(-25 366 372)" fill="#DFC084" opacity="0.6"/>
+
+  <!-- Center "CP" Monogram -->
+  <g fill="#2F5938">
+    <!-- Letter C -->
+    <path d="M 235 188 C 228 178 215 170 195 170 C 160 170 135 198 135 240 C 135 282 160 310 195 310 C 215 310 228 302 236 292 L 236 325 C 224 334 208 338 190 338 C 140 338 105 300 105 240 C 105 180 140 142 190 142 C 208 142 225 146 235 155 Z"/>
+    
+    <!-- Letter P with Leaf detail -->
+    <path d="M 252 145 L 298 145 C 330 145 352 165 352 198 C 352 230 330 250 298 250 L 278 250 L 278 335 L 252 335 Z M 278 170 L 278 225 L 295 225 C 314 225 326 215 326 198 C 326 180 314 170 295 170 Z"/>
+    
+    <!-- Botanical Leaf inside P stem -->
+    <path d="M 278 226 C 260 216 242 235 258 252 C 275 258 285 240 278 226 Z" fill="#2F5938"/>
+    <path d="M 288 200 C 310 182 320 205 306 220 C 295 224 286 215 288 200 Z" fill="#2F5938"/>
+  </g>
+
+  <!-- Text "STORE" -->
+  <text x="256" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="700" letter-spacing="12" fill="#2F5938" text-anchor="middle">STORE</text>
+
+  <!-- Text "GROCERY" -->
+  <text x="256" y="420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="600" letter-spacing="14" fill="#BA8C45" text-anchor="middle">GROCERY</text>
+</svg>
